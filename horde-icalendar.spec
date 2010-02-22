@@ -16,7 +16,6 @@ PreReq:        %{_bindir}/pear
 Requires:      horde-util
 Requires:      php-pear
 BuildRequires: dos2unix
-BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 BuildRoot:      %{_tmppath}/%{name}-%{version}
