@@ -5,7 +5,7 @@
 
 Name:          horde-icalendar
 Version:       0.1.0
-Release:       %mkrel 1
+Release:       %mkrel 2
 Summary:       The horde iCalendar API
 License:       LGPL
 Group:         Networking/Mail
