@@ -12,6 +12,8 @@ Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
+Requires(post):php-pear
+Requires(preun):php-pear
 Requires(pre): %{_bindir}/pear
 Requires:      horde-util
 Requires:      php-pear
@@ -19,7 +21,7 @@ BuildRequires: dos2unix
 BuildRequires: php-pear
 BuildRequires: horde-framework
 BuildRequires: php-pear-channel-horde
-BuildRoot:      %{_tmppath}/%{name}-%{version}
+
 
 %description
 This package provides an API for dealing with iCalendar data.
