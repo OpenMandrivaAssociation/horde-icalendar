@@ -14,7 +14,7 @@ Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 Requires(post):php-pear
 Requires(preun):php-pear
-Requires(pre): %{_bindir}/pear
+Requires(pre): php-pear
 Requires:      horde-util
 Requires:      php-pear
 BuildRequires: dos2unix
