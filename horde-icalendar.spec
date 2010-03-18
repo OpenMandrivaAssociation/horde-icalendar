@@ -19,7 +19,6 @@ Requires:      horde-util
 Requires:      php-pear
 BuildRequires: dos2unix
 BuildRequires: php-pear
-BuildRequires: horde-framework
 BuildRequires: php-pear-channel-horde
 
 
