@@ -84,3 +84,27 @@ fi
 %{peardir}/tests/iCalendar/tests/vfreebusy.phpt                                                                                    
 %{peardir}/tests/iCalendar/tests/write-escapes.phpt
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-4mdv2011.0
++ Revision: 560548
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-3mdv2010.1
++ Revision: 524799
+- removed BuildRequires: horde-framework to break dep loop
+- increased release version to 3
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+- added Requires(post):php-pear
+  added Requires(preun):php-pear
+- bumped up release to 2
+- added BuildRequires: horde-framework
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-1mdv2010.1
++ Revision: 509381
+- replace PreReq with Requires(pre)
+- removed Buildrequires: horde-framework
+- import horde-icalendar
+
+
